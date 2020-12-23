@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ru Studios</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <!--favicons start-->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <!--favicons ends-->
+</head>
+<body>
+    <header>
+        <h1> Ru Studios</h1>
+        <nav>
+            <p><a href="./index.html">Home</a></p>
+            <p><a href="">Ru-bot Game</a></p>
+            <p><a href="./sticker.html">Whatsapp Stickers</a></p>
+            <p><a href="./special-effects.html">Photo Special Effects</a></p>
+            <p><a href="#contact">Contact Us</a></p>
+            <p><a href="./about.html">About Us</a></p>
+        </nav>
+    </header>
+    <main id="ru">
+        <h1>Challenge The Ru-Bot in Rock Paper Scissors</h1>
+        <div id="introduction">
+            
+            <div id="poster-container">
+                <img id="rubot-poster"  src="./special-effects/rubot-poster.png" alt="Ru-bot poster">
+            </div>
+            <p>
+                I am the Ru-Bot, the world's most advanced artificial intelligence bot.
+                I was fused together by mad scientist Ogheneruro with a view of dominating humans and taking over the 
+                world.
+
+            </p>
+            <p>
+                Many humans have challenged my supremacy over the years and all have failed!!
+                Do you think you can beat me at rock paper scissors? go ahead and try but I know you will
+                fail!
+                The rule is simple, whoever gets to 10 first is the winner.
+                Good luck! or should I say Bad luck!!! muhahahahahaha!
+            </p>
+            <audio src="./audio/Ru bot 4.m4a" autoplay></audio>
+            <button class="butt" id="play-now">Play Now</button>
+        </div>
+
+        <div id="info">
+            <label for="name">Enter your name:</label>
+            <input type="text" name="player-name" id="name" placeholder="name" required maxlength="10">
+            <!--<input class="butt" type="submit" id="start" value="start">-->
+            <button id="start">start</button>
+        
+            
+        </div>
+        
+        <div id="instruction">
+
+        </div>
+
+        <div id="game">
+            <p>Round:<span id="round-num">1</span></p>
+            <p id="winner"></p>
+            <div id="compete">
+                <div id="player-game">
+                    <h3 id="player"></h3>
+                    <div class="thumbnail">
+                        <img src="./special-effects/profile-thumbnail.png" alt="player thumbnail">
+                    </div>
+                    <p>score: <span id="player-score">0</span></p>
+                    <div class="choice-image">
+                        <img id="player-choice"  src="./game-pics/blank.png" alt="choice">
+                    </div>
+                    <div id="keys">
+                        <button class="butt key" id="rock">Rock</button>
+                        <button class="butt key" id="paper">Paper</button>
+                        <button class="butt key"  id="scissors">Scissors</button>
+
+                    </div>
+
+                </div>
+                <div id="Rubot-game">
+                    <h3>Ru-bot</h3>
+                    <div class="thumbnail">
+                        <img src="./special-effects/rubot-thumbnail.png" alt="Rubot thumbnail">
+                    </div>
+                    
+                    <p>score: <span id="Rubot-score">0</span></p>
+                    <div class="choice-image">
+                        <img id="Rubot-choice" src="./game-pics/blank.png" alt="choice">
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <button class="butt" id="next" disabled="disabled">Next round</button>
+            </div>
+
+        </div>
+
+        <div id = "game-over">
+            <h2>RESULTS</h2>
+            <h2 id="result"></h2>
+            <p id="funny-message"></p>
+            <div id = "funny-pic-container" >
+                <img id="funny-pic" src="" alt="">
+            </div>
+            <div id="advert">
+                <h3>Advertisement</h3>
+                <p>Order your beautiful <span id="advert-text"></span></p>
+                <div id="advert-pic-container">
+                    <img id="advert-pic" src="" alt="">
+                    <button><a id="advert-link" href="">See all</a></button>
+                </div>
+            </div>
+            <button class="butt" id="play-again">Play again</button>
+
+        </div>
+        
+    </main>
+    <footer>
+        <h2 id="contact"> Contact Us</h2>
+        <p><a href="https://wa.link/et3jjq" target="_blank">Whatsapp</a></p>
+        <p><a href="https://www.instagram.com/iamruro" target="_blank">instagram</a></p>
+    </footer>
+    <script src="./rubotCode.js"></script>
+</body>
+</html>

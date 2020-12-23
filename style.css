@@ -168,3 +168,105 @@ footer p a {
 .ceo img {
     max-width: 100%;
 }
+
+
+/*Rubot */
+
+#welcome {
+    padding-top: 50px;
+}
+
+#introduction, #info, #game, #game-over {
+    padding-bottom: 20px;
+}
+
+#poster-container {
+    width: 80%;
+}
+
+#rubot-poster {
+    width: 100%;
+}
+
+input[type="text"] {
+    border-radius: 20px;
+}
+
+#start {
+    display: block;
+    background-color: blue;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px;
+    box-shadow: 2px 5px;
+    
+}
+
+.butt {
+    box-shadow: 2px 5px;
+    padding: 5px;
+}
+
+.butt:hover{
+    cursor: pointer;
+}
+
+.butt:active {
+    box-shadow: 0px 0px;
+}
+
+#compete {
+    display: flex;
+    width:98%;
+}
+
+#player-game {
+    border: 2px solid red;
+}
+
+#Rubot-game{
+    border: 2px solid green;
+    background-color: darkgray;
+
+}
+
+.choice-image {
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+}
+
+#Rubot-choice, #player-choice {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.key {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.thumbnail {
+    width: 50px;
+}
+
+.thumbnail img{
+    max-width: 100%;
+}
+
+#advert-pic-container, #funny-pic-container {
+    width: 200px;
+}
+
+#advert-pic, #funny-pic {
+    max-width: 200px;
+}
+
+
+
+
