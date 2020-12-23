@@ -220,15 +220,21 @@ input[type="text"] {
 #compete {
     display: flex;
     width:98%;
+    margin-right: auto;
+    margin-left:auto;
+    justify-content: space-evenly;
+
 }
 
 #player-game {
     border: 2px solid red;
+    width: 45%;
 }
 
 #Rubot-game{
     border: 2px solid green;
     background-color: darkgray;
+    width: 45%;
 
 }
 

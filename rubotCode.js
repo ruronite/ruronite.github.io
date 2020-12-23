@@ -212,9 +212,9 @@ let playerScore = 0;
 let RubotScore = 0;
 let gameList = ["rock","paper","scissors"]
 let gamePics = {
-    "rock": "./game-pics/rock.png",
-    "paper": "./game-pics/paper.jpg",
-    "scissors": "./game-pics/scissors.png",
+    "rock": "./game-pics/rock.webp",
+    "paper": "./game-pics/paper.webp",
+    "scissors": "./game-pics/scissors.webp",
     "blank": "./game-pics/blank.png"
 }
 
