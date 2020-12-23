@@ -228,13 +228,11 @@ input[type="text"] {
 
 #player-game {
     border: 2px solid red;
-    width: 45%;
 }
 
 #Rubot-game{
     border: 2px solid green;
     background-color: darkgray;
-    width: 45%;
 
 }
 
