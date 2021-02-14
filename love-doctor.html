@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--G AD-->
+    <script data-ad-client="ca-pub-8144348126053170" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JWQPKRZSZF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JWQPKRZSZF');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ru Studios</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <!--favicons start-->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <!--favicons ends-->
+</head>
+<body>
+    <header>
+        <h1> Ru Studios</h1>
+        <nav>
+            <p><a href="./index.html">Home</a></p>
+            <p><a href="">Love Doctor</a></p>
+            <p><a href="./rubot.html">Ru-bot Game</a></p>
+            <p><a href="./sticker.html">Whatsapp Stickers</a></p>
+            <p><a href="./special-effects.html">Photo Special Effects</a></p>
+            <p><a href="#contact">Contact Us</a></p>
+            <p><a href="./about.html">About Us</a></p>
+        </nav>
+    </header>
+    <main>
+        <h1>The Love Doctor</h1>
+        <audio src="./audio/13.m4a" autoplay></audio>
+        <div id="first-slide">            
+            <h2>Welcome To the Love Doctor's office</h2>
+            <p>
+                Since time immemorial humans have sought to make connections with other humans to establish meaningful
+                relationships that form the pillar of society.
+            </p>
+            <div id="poster-holder">
+                <img src="./special-effects/LD poster.png" alt="">
+                
+            </div>
+            <p> <strong>Now, for the first time in human history,</strong> pre-existing and potential relationships
+                can be analysed in-depth by scientific methods. 
+            </p>
+            <p> The <strong>"Ruro-algorithm"</strong> draws from years of academic research in the fields of human-psychology 
+                and sociology fused together in complex mathematical model using millions of data points to predict to reasonable
+                accuracy how relationships will play out.
+            </p>
+            <p>
+                To see your relationship analysis report, click the button below.
+            </p>
+
+            <button class="butt" id="play-now"> Proceed</button>
+
+
+        </div>
+        <div id="partner-info">            
+            <label for="name">Enter your name:</label>
+            <input type="text" name="player-name" id="name" placeholder="name" required maxlength="10">
+            <br>
+            <br>
+            <label for="partner-name">Enter partner's name:</label>
+            <input type="text" name="partner-name" id="partner-name" placeholder="partner's name" required maxlength="10">
+            <br>
+            <br>
+
+            <label for="staus">Relationship Status: </label>
+            <select name="status" id="status">
+                <option value="pre-existing">Pre-existing</option>
+                <option value="potential">potential</option>
+            </select>
+            <br>
+            <br>
+            <button id="start" class="butt">Generate Analysis</button>
+            <br>
+            <br>            
+        </div>
+
+        <div id= report>
+            <h2 id="report-header"></h2>
+            <h4>Biggest relationship problem: <span id="problem" class="answer"></span></h4>
+            <h4>Relationship Strength: <span id="percent" class= "percentage"></span> </h4>
+            <h4>Most likely to break up: <span id="breaker" class="answer"></span></h4>
+            <h4>Most Valuable partner: <span id="dating-value" class="answer"></span></h4>
+            <h4>Most committed partner: <span id="committed" class="answer"></span></h4>
+            <h4> <span id="player-greed" class="names"></span>'s Level of greed: <span id="player-greed-level" class="percentage"></span></h4>
+            <h4> <span id="partner-greed" class="names"></span>'s Level of greed: <span id="partner-greed-level" class="percentage"></span></h4>
+            <h4>Relationship Strength without money: <span id="money" class="percentage"></span></h4>
+            <h3>Advise: </h3>
+            <p id="advise"></p>
+            <button class="butt" id="try-again"> Try again</button>
+        </div>
+        
+    </main>
+    <footer>
+        <h2 id="contact"> Contact Us</h2>
+        <p><a href="https://wa.link/et3jjq" target="_blank">Whatsapp</a></p>
+        <p><a href="https://www.instagram.com/iamruro" target="_blank">instagram</a></p>
+    </footer>
+    <script src="./ld.js"></script>
+</body>
+</html>
