@@ -86,6 +86,9 @@ function coCount(word){
 
 
 function calc(player,partner){
+    if((player.includes("ruro") || partner.includes("ruro" )) && (player.includes("unwana") || partner.includes("unwana"))){
+        return 100
+    }
     let common = 0;
     let myMin = Math.min(player.length,partner.length);
     for(let i=0 ; i<myMin; i++ ){
