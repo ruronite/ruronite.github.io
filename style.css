@@ -292,6 +292,7 @@ input[type="text"] {
     border: solid gold 2px;
 }
 
+
 #report{
     border: solid red 5px;
     background-color: coral;
@@ -331,3 +332,24 @@ input[type="text"] {
     margin-bottom: 20px;    
 }
 
+
+@media only screen and (max-width: 480px){
+    #partner-info label {
+        display: block;
+
+    }
+}
+
+@media only screen and (max-width: 300px){
+    #partner-info .butt {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 429px){
+    #report .percentage {
+        display: block;
+        width: max-content;
+        margin: 0px auto;
+    }
+}
