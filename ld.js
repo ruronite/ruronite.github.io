@@ -52,7 +52,7 @@ let partnerGreedLevelDisplay =document.getElementById("partner-greed-level");
 
 
 let problems = [
-    "over-expectatios","distance","poor communication", "comparison with others", "lack of compromise", 
+    "over-expectations","distance","poor communication", "comparison with others", "lack of compromise", 
     "trust issues", "jealousy", "alcohol", "too much secrets", "no one taking responsibility",
     "inability to apologise","pride","lack of empathy","lack of respect", "money management", "lack of gratitude",
     "lack of forgiveness", "extended family", "friends & third parties"
